@@ -1,6 +1,6 @@
 
 def calculate_average(backend, frontend, design):
-    return int((backend + frontend + design) / 3)
+    return (backend + frontend + design) // 3
 
 def get_grade(average):
     if average >= 80:
